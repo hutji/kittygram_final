@@ -18,7 +18,7 @@ services:
       - static:/backend_static
       - kittygram_final_media:/app/media/
   frontend:
-    image: kittygram_final-frontend\
+    image: kittygram_final-frontend
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
