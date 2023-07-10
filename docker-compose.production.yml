@@ -34,3 +34,4 @@ services:
       - kittygram_final_media:/app/media/
     depends_on:
       - backend
+
