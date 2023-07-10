@@ -17,6 +17,8 @@ services:
     volumes:
       - static:/backend_static
       - kittygram_final_media:/app/media/
+    depends_on:
+      - db
   frontend:
     image: hutji/kittygram_final-frontend
     command: cp -r /app/build/. /static/
@@ -30,3 +32,5 @@ services:
     volumes:
       - static:/static
       - kittygram_final_media:/app/media/
+    depends_on:
+      - backend
