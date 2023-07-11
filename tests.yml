@@ -1,4 +1,8 @@
 repo_owner: hutji
 kittygram_domain: https://hutjikitty.zapto.org
 taski_domain: https://hutji.ddns.net
+<<<<<<< HEAD
 dockerhub_username: hutji
+=======
+dockerhub_username: hutji 
+>>>>>>> 5af0d0ea3568327b3db463d10cb1c5081084234c
