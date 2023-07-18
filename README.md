@@ -74,14 +74,3 @@ sudo docker compose -f docker-compose.yml down
 
 - Лашков Павел Александрович, начинающий backend разработчик, г. Москва
 - https://github.com/hutji
-
-<<<<<<< HEAD
-## Демо-версия сайта
-- https://hutjikitty.zapto.org
-=======
-- Проект Taski доступен по доменному имени, указанному в `tests.yml`.
-- Проект Kittygram доступен по доменному имени, указанному в `tests.yml`.
-- Пуш в ветку main запускает тестирование и деплой Kittygram, а после успешного деплоя вам приходит сообщение в телеграм.
-- В корне проекта есть файл `kittygram_workflow.yml`.
-https://hutjikitty.zapto.org
->>>>>>> 1eddfc8c60eda9440b2c07f1bd85ec83dcd134ff
